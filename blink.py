@@ -17,8 +17,8 @@ while True: #Forever loop
 
     GPIO.output(11, GPIO.HIGH) #Turn on the LED
 
-    sleep(0.1) #Wait for one second
+    sleep(0.1) #Wait for one tenth second
     
     GPIO.output(11, GPIO.LOW) #Turn off the LED
 
-    sleep(0.1) #wait for one second
+    sleep(0.1) #wait for one tenth second
